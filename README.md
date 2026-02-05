@@ -2,6 +2,8 @@
 
 **SmartReceipt** is a powerful, full-stack automated expense tracker that leverages AI to simplify financial management. Snap a photo of your receipt, and let our intelligent backend handle the rest—extracting merchant details, dates, and amounts instantly.
 
+![SmartReceipt Banner](assets/banner.png)
+
 ## 🚀 Features
 
 - **📱 Cross-Platform Mobile App**: Built with **Flutter**, offering a smooth, responsive experience on Android and iOS.
