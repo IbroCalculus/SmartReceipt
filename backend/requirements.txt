@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlmodel
+aiomysql
+mysql-connector-python
+python-multipart
+pytesseract
+pillow
+python-jose[cryptography]
+passlib[bcrypt]
+email-validator
+bcrypt==3.2.2

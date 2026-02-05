@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  api:
+    build: ./backend
+    container_name: smartreceipt_api
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - DATABASE_URL=mysql+aiomysql://root:password@db:3306/smartreceipt
+      - JWT_SECRET=supersecretkeyChangeThisInProduction
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: smartreceipt_db
+    ports:
+      - "3308:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=smartreceipt
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
