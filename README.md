@@ -61,9 +61,9 @@ _Note: The app is pre-configured to connect to the backend at `http://10.0.2.2:8
 
 ## 📸 Screenshots
 
-|       Login Screen       |          Dashboard           |      Scan Receipt       |
-| :----------------------: | :--------------------------: | :---------------------: |
-| _(Add Login Screenshot)_ | _(Add Dashboard Screenshot)_ | _(Add Scan Screenshot)_ |
+|        Login Screen        |             Dashboard              |       Scan Receipt       |
+| :------------------------: | :--------------------------------: | :----------------------: |
+| ![Login](assets/login.png) | ![Dashboard](assets/dashboard.png) | ![Scan](assets/scan.png) |
 
 ## 🤝 Contributing
 
